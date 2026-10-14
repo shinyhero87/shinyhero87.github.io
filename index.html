@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Software engineering portfolio of ShinyHero87, a Computer Science student at UW Tacoma.">
+  <title>ShinyHero87 | Software Engineering Portfolio</title>
+
+  <style>
+    :root {
+      --background: #0d1117;
+      --surface: #161b22;
+      --text: #e6edf3;
+      --muted: #9caaba;
+      --accent: #58a6ff;
+      --border: #30363d;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .logo {
+      font-weight: bold;
+      color: var(--accent);
+      font-size: 1.2rem;
+    }
+
+    nav a {
+      color: var(--text);
+      text-decoration: none;
+      margin-left: 18px;
+    }
+
+    nav a:hover, a:hover { color: var(--accent); }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 0 24px;
+    }
+
+    .hero {
+      padding: 100px 0 80px;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.2rem, 6vw, 4rem);
+      line-height: 1.2;
+      margin: 12px 0;
+    }
+
+    .hero p {
+      max-width: 700px;
+      color: var(--muted);
+      font-size: 1.15rem;
+    }
+
+    .eyebrow { color: var(--accent); }
+
+    .button {
+      display: inline-block;
+      padding: 12px 22px;
+      margin: 14px 12px 0 0;
+      background: var(--accent);
+      color: #0d1117;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    section { padding: 40px 0; }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 24px;
+      border-radius: 10px;
+    }
+
+    .card h3 { margin-top: 0; }
+
+    .card p, .card li { color: var(--muted); }
+
+    .card a { color: var(--accent); }
+
+    footer {
+      padding: 35px 24px;
+      text-align: center;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      margin-top: 60px;
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 18px 24px; }
+      nav a { margin: 0 14px 0 0; }
+      .hero { padding: 65px 0 40px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">ShinyHero87</div>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="eyebrow">Computer Science Student | UW Tacoma</div>
+      <h1>Building software.<br>Solving complex problems.</h1>
+      <p>
+        I'm a Marine Corps veteran and journeyman machinist
+        transitioning into software engineering. I'm interested
+        in distributed systems, backend development, and
+        mission-critical software.
+      </p>
+      <a class="button" href="#projects">View Projects</a>
+      <a class="button secondary"
+         href="https://github.com/shinyhero87"
+         target="_blank" rel="noopener noreferrer">
+        GitHub Profile
+      </a>
+    </div>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm currently pursuing a Bachelor of Arts in Computer
+        Science at the University of Washington Tacoma.
+      </p>
+      <p>
+        My professional background includes military service
+        and over 12 years of precision machining experience.
+        Those experiences strengthened my analytical thinking,
+        troubleshooting skills, and attention to detail.
+      </p>
+      <p>
+        I'm now applying that experience to computer science
+        and building a foundation in software engineering.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Programming</h3>
+          <p>Java, object-oriented programming, class design,
+          and application logic.</p>
+        </div>
+
+        <div class="card">
+          <h3>Computer Science</h3>
+          <p>Discrete mathematics, propositional logic,
+          predicates, and software design fundamentals.</p>
+        </div>
+
+        <div class="card">
+          <h3>Development Tools</h3>
+          <p>Git, GitHub, Visual Studio Code,
+          and UML diagrams.</p>
+        </div>
+
+        <div class="card">
+          <h3>Engineering Background</h3>
+          <p>CAD/CAM, precision manufacturing, mechanical
+          systems, and technical troubleshooting.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Java Clock Application</h3>
+          <p>
+            An object-oriented programming project exploring
+            constructors, encapsulation, class design,
+            and input validation.
+          </p>
+          <p>Technology: Java</p>
+        </div>
+
+        <div class="card">
+          <h3>Java Tic-Tac-Toe</h3>
+          <p>
+            A console-based game demonstrating control flow,
+            player interaction, and game-state management.
+          </p>
+          <p>Technology: Java</p>
+        </div>
+
+        <div class="card">
+          <h3>More Projects Coming Soon</h3>
+          <p>
+            Future projects will explore data structures,
+            algorithms, backend systems, and distributed
+            software development.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Connect With Me</h2>
+      <p>
+        I'm building my software engineering skills and
+        exploring internship and professional opportunities.
+      </p>
+      <a class="button"
+         href="https://github.com/shinyhero87"
+         target="_blank" rel="noopener noreferrer">
+        Visit My GitHub
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 ShinyHero87. Built with HTML and CSS.
+    Hosted on GitHub Pages.</p>
+  </footer>
+</body>
+</html>
