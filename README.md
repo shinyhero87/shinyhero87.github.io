@@ -1,54 +1,56 @@
-# Software Engineering Portfolio | ShinyHero87
+# Blake LaCroix | Computer Science Portfolio
 
-Welcome to my GitHub portfolio!
+**Computer science student · Marine Corps veteran · Journeyman machinist**
 
-I'm a Computer Science student at the **University of Washington Tacoma**, pursuing a career in software engineering.
+[Visit my portfolio](https://shinyhero87.github.io) · [Resume (PDF)](resume.pdf) · [Cover letter (PDF)](cover-letter.pdf)
 
-## About Me
+## About me
 
-I'm a United States Marine Corps veteran and journeyman machinist with over 12 years of experience in precision manufacturing, technical problem-solving, and mechanical systems.
-
-I'm transitioning into software engineering, combining my technical background with my growing knowledge of computer science.
-
-My primary interests include distributed systems, backend development, and software engineering for aerospace and defense applications.
+I'm pursuing a B.A. in Computer Science at the University of Washington Tacoma, expected 2028. I bring 12+ years of precision manufacturing experience and Marine Corps leadership to software development. My interests include backend development, distributed systems, and practical technical applications.
 
 ## Education
 
-**University of Washington Tacoma**  
-Bachelor of Arts in Computer Science — In Progress
+- University of Washington Tacoma — B.A. in Computer Science, expected 2028; GPA 3.49.
+- Tacoma Community College — A.A., Computer Science DTA/MRP, Honors, June 2026; GPA 3.58.
+- Olympic College — A.T.A., Industrial Trade Technician/Apprentice, June 2021.
 
-## Technical Skills
+Current coursework: Object-Oriented Programming and Discrete Structures. Planned: Data Structures (Winter 2027), Algorithms (Spring 2027).
 
-- **Programming:** Java
-- **Software Design:** Object-Oriented Programming, UML, Class Design
-- **Development Tools:** Git, GitHub, Visual Studio Code
-- **Computer Science:** Discrete Mathematics, Logic, Problem-Solving
-- **Engineering:** CAD/CAM, Precision Manufacturing, Mechanical Systems
+## Projects — work in progress
 
-## Projects
+### Warehouse Inventory System
+Java classes and arrays model receiving, shipping, quantities, and inventory limits. Challenge and learning focus: consistent inventory rules and input validation. Source link forthcoming.
 
-### Java Clock Application
-Object-oriented programming project focusing on class design, constructors, encapsulation, and data validation.
+### Clock and ClockShop
+Java application using constructors, encapsulation, validation, file I/O, sorting, and searching. Challenge and learning focus: organizing clock data and operations through object-oriented design. Source link forthcoming.
 
-### Java Tic-Tac-Toe
-Console-based Java game demonstrating control flow, game logic, and user interaction.
+### Web coursework and portfolio
+HTML/CSS coursework and a responsive GitHub Pages portfolio. Challenge and learning focus: clear navigation, responsive layout, and publishing with GitHub.
+[Coursework repository](https://github.com/shinyhero87/HTML) · [Portfolio](https://shinyhero87.github.io)
 
-*More projects coming soon!*
+More projects appear on the website; this collection will be updated each quarter.
 
-## Career Goals
+## Skills
 
-My goal is to become a software engineer specializing in distributed systems and complex software applications.
+Java, JavaScript, SQL, PHP, HTML, CSS; exposure to C++. Git, GitHub, VS Code, CAD/CAM. Object-oriented design, validation, testing, file I/O, technical documentation, and troubleshooting.
 
-I'm interested in internships, collaborative projects, and opportunities to develop real-world software engineering experience.
+## Experience
 
-## Portfolio Website
+**Journeyman Machinist — Precision Manufacturing | 12+ years**  
+Interpret drawings and specifications, troubleshoot equipment and processes, and maintain quality standards using CAD/CAM and measurement.
 
-https://shinyhero87.github.io
+**Battery Ammunition Chief — U.S. Marine Corps | March 2011–May 2015**  
+Trained 30+ Marines in handling procedures and accountability; coordinated inventory movement and audits. Supported generator operations, load monitoring, and preventive upkeep.
 
-## GitHub Profile
+## Resume and cover letter
 
-https://github.com/shinyhero87
+- [Resume PDF](resume.pdf)
+- [General cover letter PDF](cover-letter.pdf)
 
----
+## Contact
 
-*Continuously learning, building, and improving.*
+[blakelacroix@gmail.com](mailto:blakelacroix@gmail.com) · [GitHub](https://github.com/shinyhero87)
+
+## Site maintenance
+
+Static HTML, CSS, and JavaScript hosted with GitHub Pages. Update project descriptions and coursework each quarter. Replace the PDFs at the same paths to keep existing links working.
